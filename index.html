@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tebak Kata dengan Caesar Cipher</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="assets/style1.css">
+</head>
+<body>
+    <div>
+        <h1>WELCOME PSM22C</h1>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <button type="button" id="login-button">Login</button>
+    </div>
+      
+    <script>
+        // Simulasikan data pengguna yang benar (gantilah dengan data yang sesuai)
+        const userDatabase = {
+            "PSM22C": "C123",
+            "hana": "lopyu",
+            "YONS": "1234YY"
+        };
+
+        document.getElementById("login-button").addEventListener("click", function () {
+            const username = document.getElementById("username").value;
+            const password = document.getElementById("password").value;
+
+            if (userDatabase[username] && userDatabase[username] === password) {
+                // Autentikasi berhasil, arahkan ke halaman permainan
+                window.location.href = "assets/Yons.html";
+            } else {
+                alert("Login gagal. Coba lagi.");
+            }
+        });
+    </script>
+</body>
+</html>

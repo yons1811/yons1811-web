@@ -1,0 +1,95 @@
+/* CSS Dasar */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#tebakan {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 8px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 8px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+#kata-terenkripsi {
+    font-family: "Arial Unicode MS", Arial, sans-serif;
+}
+
+/* Gaya Khusus */
+#skor {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+#kata-terenkripsi {
+    font-size: 20px;
+    color: #333;
+}
+
+#jawaban {
+    font-size: 16px;
+}
+
+#periksa {
+    background-color: #27ae60;
+}
+
+#periksa:hover {
+    background-color: #219a52;
+}
+
+#ulangi {
+    background-color: #e74c3c;
+}
+
+#ulangi:hover {
+    background-color: #c0392b;
+}
+
+#lanjut {
+    background-color: #f39c12;
+}
+
+#lanjut:hover {
+    background-color: #d68910;
+}
+
+/* Gaya untuk Pesan Hasil */
+.hasil-pesan {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+}
